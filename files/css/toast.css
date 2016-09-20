@@ -1,0 +1,29 @@
+#toastParent {
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding: 10px;
+	position: fixed;
+	display: inline-block;
+	left: 0;
+	bottom: 0;
+}
+
+.duckToast {
+	font-family: "Roboto", sans-serif;
+	margin-top: .3em;
+  	padding: .5em;
+}
+
+.toastText {
+	text-align: center;
+	background: #4fc1e9;
+  	border: .5em solid rgb(79,193,233);
+  	background-clip: padding-box;
+}
+
+.toastFront {
+	text-align: center;
+	background: #3bafda;
+	border: .5em solid rgb(59,175,218);
+  	background-clip: padding-box;
+}
